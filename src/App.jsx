@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {URL} from "./constants"
+
 
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
     setResult(undefined);
 
     try {
-      const response = await fetch(URL, {
+      const response = await fetch(import.meta.env.VITE_GEMINI_KEY, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
