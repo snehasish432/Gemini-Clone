@@ -101,7 +101,7 @@ const App = () => {
       <div className="flex flex-col flex-1 p-6">
         
         <h1 className="flex justify-center text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-          Gemini Clone
+          ChatGpt Clone
         </h1>
 
         <div className={`${darkMode ? "bg-grey-900" : "bg-gray-100"} flex-1 overflow-auto p-6 rounded-xl shadow-inner border mb-10`}>
